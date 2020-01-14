@@ -1,0 +1,144 @@
+2020-01-14 21:06:47,297  user_log.py--> <module> 10: DEBUG--> test
+2020-01-14 21:07:41,509  user_log.py--> <module> 10: DEBUG--> test
+2020-01-14 21:07:56,363  user_log.py--> <module> 10: DEBUG--> test
+2020-01-14 21:08:44,099  user_log.py--> <module> 10: DEBUG--> test
+2020-01-14 21:11:14,519  user_log.py--> <module> 10: DEBUG--> test1234
+2020-01-14 21:11:25,045  user_log.py--> <module> 10: DEBUG--> test1234
+2020-01-14 21:24:18,861  user_log.py--> <module> 10: DEBUG--> test
+2020-01-14 21:28:53,436  user_log.py--> <module> 10: DEBUG--> test
+2020-01-14 21:31:37,460  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59187/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-01-14 21:31:37,465  connectionpool.py--> _new_conn 10: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:59187
+2020-01-14 21:31:39,371  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59187 "POST /session HTTP/1.1" 200 690
+2020-01-14 21:31:39,372  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:39,373  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59187/session/f4636e8e77c663c852eeb58b320154af/window/maximize {}
+2020-01-14 21:31:40,518  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59187 "POST /session/f4636e8e77c663c852eeb58b320154af/window/maximize HTTP/1.1" 200 51
+2020-01-14 21:31:40,518  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:40,519  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59187/session/f4636e8e77c663c852eeb58b320154af/url {"url": "http://psi.butterfly.mopaasapp.com"}
+2020-01-14 21:31:46,984  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59187 "POST /session/f4636e8e77c663c852eeb58b320154af/url HTTP/1.1" 200 14
+2020-01-14 21:31:46,984  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:46,985  Login_TestCase.py--> setUp 10: DEBUG--> this a Chrome
+2020-01-14 21:31:46,985  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59187/session/f4636e8e77c663c852eeb58b320154af/url {"url": "http://psi.butterfly.mopaasapp.com"}
+2020-01-14 21:31:47,686  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59187 "POST /session/f4636e8e77c663c852eeb58b320154af/url HTTP/1.1" 200 14
+2020-01-14 21:31:47,687  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:47,687  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59187/session/f4636e8e77c663c852eeb58b320154af/element {"using": "css selector", "value": "[id=\"editLoginName\"]"}
+2020-01-14 21:31:47,736  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59187 "POST /session/f4636e8e77c663c852eeb58b320154af/element HTTP/1.1" 200 88
+2020-01-14 21:31:47,736  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:47,737  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59187/session/f4636e8e77c663c852eeb58b320154af/element/429705b8-4547-4a7f-bf5d-3eac112ed05e/value {"text": "", "value": [], "id": "429705b8-4547-4a7f-bf5d-3eac112ed05e"}
+2020-01-14 21:31:47,770  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59187 "POST /session/f4636e8e77c663c852eeb58b320154af/element/429705b8-4547-4a7f-bf5d-3eac112ed05e/value HTTP/1.1" 200 14
+2020-01-14 21:31:47,771  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:47,771  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59187/session/f4636e8e77c663c852eeb58b320154af/element {"using": "css selector", "value": "[id=\"editPassword\"]"}
+2020-01-14 21:31:47,787  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59187 "POST /session/f4636e8e77c663c852eeb58b320154af/element HTTP/1.1" 200 88
+2020-01-14 21:31:47,788  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:47,788  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59187/session/f4636e8e77c663c852eeb58b320154af/element/844551e4-6c86-408d-944b-f80c56427218/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "844551e4-6c86-408d-944b-f80c56427218"}
+2020-01-14 21:31:47,900  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59187 "POST /session/f4636e8e77c663c852eeb58b320154af/element/844551e4-6c86-408d-944b-f80c56427218/value HTTP/1.1" 200 14
+2020-01-14 21:31:47,901  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:47,901  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59187/session/f4636e8e77c663c852eeb58b320154af/element {"using": "css selector", "value": "[id=\"buttonOK\"]"}
+2020-01-14 21:31:47,927  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59187 "POST /session/f4636e8e77c663c852eeb58b320154af/element HTTP/1.1" 200 88
+2020-01-14 21:31:47,928  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:47,928  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59187/session/f4636e8e77c663c852eeb58b320154af/element/adb14094-7254-42a0-a3bd-8246e0bf9485/click {"id": "adb14094-7254-42a0-a3bd-8246e0bf9485"}
+2020-01-14 21:31:48,075  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59187 "POST /session/f4636e8e77c663c852eeb58b320154af/element/adb14094-7254-42a0-a3bd-8246e0bf9485/click HTTP/1.1" 200 14
+2020-01-14 21:31:48,075  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:50,077  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59187/session/f4636e8e77c663c852eeb58b320154af/element {"using": "xpath", "value": "//*[@id=\"divInfo\"]"}
+2020-01-14 21:31:50,091  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59187 "POST /session/f4636e8e77c663c852eeb58b320154af/element HTTP/1.1" 200 88
+2020-01-14 21:31:50,092  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:50,092  remote_connection.py--> _request 10: DEBUG--> GET http://127.0.0.1:59187/session/f4636e8e77c663c852eeb58b320154af/element/a849b772-8569-4309-8a87-95d37adf523f/text {"id": "a849b772-8569-4309-8a87-95d37adf523f"}
+2020-01-14 21:31:50,108  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59187 "GET /session/f4636e8e77c663c852eeb58b320154af/element/a849b772-8569-4309-8a87-95d37adf523f/text HTTP/1.1" 200 33
+2020-01-14 21:31:50,109  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:52,109  remote_connection.py--> _request 10: DEBUG--> DELETE http://127.0.0.1:59187/session/f4636e8e77c663c852eeb58b320154af/window {}
+2020-01-14 21:31:52,254  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59187 "DELETE /session/f4636e8e77c663c852eeb58b320154af/window HTTP/1.1" 200 12
+2020-01-14 21:31:52,255  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:52,780  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59243/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-01-14 21:31:52,781  connectionpool.py--> _new_conn 10: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:59243
+2020-01-14 21:31:54,621  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59243 "POST /session HTTP/1.1" 200 691
+2020-01-14 21:31:54,621  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:54,621  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59243/session/9120a508f65570b04178c7c4fa32b628/window/maximize {}
+2020-01-14 21:31:55,743  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59243 "POST /session/9120a508f65570b04178c7c4fa32b628/window/maximize HTTP/1.1" 200 51
+2020-01-14 21:31:55,744  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:55,745  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59243/session/9120a508f65570b04178c7c4fa32b628/url {"url": "http://psi.butterfly.mopaasapp.com"}
+2020-01-14 21:31:59,884  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59243 "POST /session/9120a508f65570b04178c7c4fa32b628/url HTTP/1.1" 200 14
+2020-01-14 21:31:59,886  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:31:59,887  Login_TestCase.py--> setUp 10: DEBUG--> this a Chrome
+2020-01-14 21:31:59,888  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59243/session/9120a508f65570b04178c7c4fa32b628/url {"url": "http://psi.butterfly.mopaasapp.com"}
+2020-01-14 21:32:01,383  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59243 "POST /session/9120a508f65570b04178c7c4fa32b628/url HTTP/1.1" 200 14
+2020-01-14 21:32:01,383  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:01,384  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59243/session/9120a508f65570b04178c7c4fa32b628/element {"using": "css selector", "value": "[id=\"editLoginName\"]"}
+2020-01-14 21:32:01,439  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59243 "POST /session/9120a508f65570b04178c7c4fa32b628/element HTTP/1.1" 200 88
+2020-01-14 21:32:01,439  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:01,440  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59243/session/9120a508f65570b04178c7c4fa32b628/element/66105f81-96e0-4910-b9e7-06f33040351f/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "66105f81-96e0-4910-b9e7-06f33040351f"}
+2020-01-14 21:32:01,683  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59243 "POST /session/9120a508f65570b04178c7c4fa32b628/element/66105f81-96e0-4910-b9e7-06f33040351f/value HTTP/1.1" 200 14
+2020-01-14 21:32:01,683  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:01,684  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59243/session/9120a508f65570b04178c7c4fa32b628/element {"using": "css selector", "value": "[id=\"editPassword\"]"}
+2020-01-14 21:32:01,699  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59243 "POST /session/9120a508f65570b04178c7c4fa32b628/element HTTP/1.1" 200 88
+2020-01-14 21:32:01,700  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:01,700  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59243/session/9120a508f65570b04178c7c4fa32b628/element/a2f07c5f-a0ab-4aa0-a9eb-1c785b2401ad/value {"text": "", "value": [], "id": "a2f07c5f-a0ab-4aa0-a9eb-1c785b2401ad"}
+2020-01-14 21:32:01,752  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59243 "POST /session/9120a508f65570b04178c7c4fa32b628/element/a2f07c5f-a0ab-4aa0-a9eb-1c785b2401ad/value HTTP/1.1" 200 14
+2020-01-14 21:32:01,753  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:01,753  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59243/session/9120a508f65570b04178c7c4fa32b628/element {"using": "css selector", "value": "[id=\"buttonOK\"]"}
+2020-01-14 21:32:01,776  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59243 "POST /session/9120a508f65570b04178c7c4fa32b628/element HTTP/1.1" 200 88
+2020-01-14 21:32:01,776  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:01,776  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59243/session/9120a508f65570b04178c7c4fa32b628/element/d43bdda0-174a-4f81-b106-4be233af933b/click {"id": "d43bdda0-174a-4f81-b106-4be233af933b"}
+2020-01-14 21:32:01,840  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59243 "POST /session/9120a508f65570b04178c7c4fa32b628/element/d43bdda0-174a-4f81-b106-4be233af933b/click HTTP/1.1" 200 14
+2020-01-14 21:32:01,841  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:03,841  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59243/session/9120a508f65570b04178c7c4fa32b628/element {"using": "xpath", "value": "//*[@id=\"divInfo\"]"}
+2020-01-14 21:32:03,855  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59243 "POST /session/9120a508f65570b04178c7c4fa32b628/element HTTP/1.1" 200 88
+2020-01-14 21:32:03,855  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:03,855  remote_connection.py--> _request 10: DEBUG--> GET http://127.0.0.1:59243/session/9120a508f65570b04178c7c4fa32b628/element/6a328a5b-1a2a-4153-8e36-8c037eb7986f/text {"id": "6a328a5b-1a2a-4153-8e36-8c037eb7986f"}
+2020-01-14 21:32:03,871  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59243 "GET /session/9120a508f65570b04178c7c4fa32b628/element/6a328a5b-1a2a-4153-8e36-8c037eb7986f/text HTTP/1.1" 200 30
+2020-01-14 21:32:03,871  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:05,873  remote_connection.py--> _request 10: DEBUG--> DELETE http://127.0.0.1:59243/session/9120a508f65570b04178c7c4fa32b628/window {}
+2020-01-14 21:32:05,967  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59243 "DELETE /session/9120a508f65570b04178c7c4fa32b628/window HTTP/1.1" 200 12
+2020-01-14 21:32:05,968  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:06,489  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59271/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-01-14 21:32:06,492  connectionpool.py--> _new_conn 10: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:59271
+2020-01-14 21:32:08,290  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59271 "POST /session HTTP/1.1" 200 692
+2020-01-14 21:32:08,291  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:08,291  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59271/session/ca51ab30d8331e90ec5fd3aa84af6e71/window/maximize {}
+2020-01-14 21:32:09,434  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59271 "POST /session/ca51ab30d8331e90ec5fd3aa84af6e71/window/maximize HTTP/1.1" 200 51
+2020-01-14 21:32:09,435  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:09,435  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59271/session/ca51ab30d8331e90ec5fd3aa84af6e71/url {"url": "http://psi.butterfly.mopaasapp.com"}
+2020-01-14 21:32:12,440  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59271 "POST /session/ca51ab30d8331e90ec5fd3aa84af6e71/url HTTP/1.1" 200 14
+2020-01-14 21:32:12,440  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:12,440  Login_TestCase.py--> setUp 10: DEBUG--> this a Chrome
+2020-01-14 21:32:12,441  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59271/session/ca51ab30d8331e90ec5fd3aa84af6e71/url {"url": "http://psi.butterfly.mopaasapp.com"}
+2020-01-14 21:32:12,995  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59271 "POST /session/ca51ab30d8331e90ec5fd3aa84af6e71/url HTTP/1.1" 200 14
+2020-01-14 21:32:12,996  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:12,996  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59271/session/ca51ab30d8331e90ec5fd3aa84af6e71/element {"using": "css selector", "value": "[id=\"editLoginName\"]"}
+2020-01-14 21:32:13,032  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59271 "POST /session/ca51ab30d8331e90ec5fd3aa84af6e71/element HTTP/1.1" 200 88
+2020-01-14 21:32:13,033  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:13,033  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59271/session/ca51ab30d8331e90ec5fd3aa84af6e71/element/0a38f987-0028-45a2-a7e8-be2a4d5dda37/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "0a38f987-0028-45a2-a7e8-be2a4d5dda37"}
+2020-01-14 21:32:13,095  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59271 "POST /session/ca51ab30d8331e90ec5fd3aa84af6e71/element/0a38f987-0028-45a2-a7e8-be2a4d5dda37/value HTTP/1.1" 200 14
+2020-01-14 21:32:13,095  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:13,095  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59271/session/ca51ab30d8331e90ec5fd3aa84af6e71/element {"using": "css selector", "value": "[id=\"editPassword\"]"}
+2020-01-14 21:32:13,110  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59271 "POST /session/ca51ab30d8331e90ec5fd3aa84af6e71/element HTTP/1.1" 200 88
+2020-01-14 21:32:13,110  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:13,111  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59271/session/ca51ab30d8331e90ec5fd3aa84af6e71/element/bf241109-8217-4872-a17f-29701069b516/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "bf241109-8217-4872-a17f-29701069b516"}
+2020-01-14 21:32:13,200  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59271 "POST /session/ca51ab30d8331e90ec5fd3aa84af6e71/element/bf241109-8217-4872-a17f-29701069b516/value HTTP/1.1" 200 14
+2020-01-14 21:32:13,201  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:13,201  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59271/session/ca51ab30d8331e90ec5fd3aa84af6e71/element {"using": "css selector", "value": "[id=\"buttonOK\"]"}
+2020-01-14 21:32:13,224  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59271 "POST /session/ca51ab30d8331e90ec5fd3aa84af6e71/element HTTP/1.1" 200 88
+2020-01-14 21:32:13,225  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:13,225  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59271/session/ca51ab30d8331e90ec5fd3aa84af6e71/element/91b4d269-d694-48e4-84cd-0d1d0b0f210c/click {"id": "91b4d269-d694-48e4-84cd-0d1d0b0f210c"}
+2020-01-14 21:32:13,311  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59271 "POST /session/ca51ab30d8331e90ec5fd3aa84af6e71/element/91b4d269-d694-48e4-84cd-0d1d0b0f210c/click HTTP/1.1" 200 14
+2020-01-14 21:32:13,312  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:15,312  remote_connection.py--> _request 10: DEBUG--> GET http://127.0.0.1:59271/session/ca51ab30d8331e90ec5fd3aa84af6e71/title {}
+2020-01-14 21:32:16,006  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59271 "GET /session/ca51ab30d8331e90ec5fd3aa84af6e71/title HTTP/1.1" 200 24
+2020-01-14 21:32:16,006  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:32:18,008  remote_connection.py--> _request 10: DEBUG--> DELETE http://127.0.0.1:59271/session/ca51ab30d8331e90ec5fd3aa84af6e71/window {}
+2020-01-14 21:32:20,150  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59271 "DELETE /session/ca51ab30d8331e90ec5fd3aa84af6e71/window HTTP/1.1" 200 14
+2020-01-14 21:32:20,153  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:33:17,585  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59323/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-01-14 21:33:17,587  connectionpool.py--> _new_conn 10: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:59323
+2020-01-14 21:33:19,421  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59323 "POST /session HTTP/1.1" 200 691
+2020-01-14 21:33:19,421  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:33:19,422  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59323/session/aa6b137216f6d89b2309f25265efdb9b/window/maximize {}
+2020-01-14 21:33:20,542  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59323 "POST /session/aa6b137216f6d89b2309f25265efdb9b/window/maximize HTTP/1.1" 200 51
+2020-01-14 21:33:20,543  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:33:20,543  remote_connection.py--> _request 10: DEBUG--> POST http://127.0.0.1:59323/session/aa6b137216f6d89b2309f25265efdb9b/url {"url": "http://psi.butterfly.mopaasapp.com"}
+2020-01-14 21:33:27,926  connectionpool.py--> _make_request 10: DEBUG--> http://127.0.0.1:59323 "POST /session/aa6b137216f6d89b2309f25265efdb9b/url HTTP/1.1" 200 14
+2020-01-14 21:33:27,927  remote_connection.py--> _request 10: DEBUG--> Finished Request
+2020-01-14 21:33:27,927  Login_TestCase.py--> setUp 10: DEBUG--> this a Chrome
+2020-01-14 21:37:38,596  Login_TestCase.py--> setUp 20: INFO--> this a Chrome
+2020-01-14 21:38:59,938  Login_TestCase.py--> setUp 20: INFO--> this a Chrome
+2020-01-14 21:45:34,408  Login_TestCase.py--> setUp 20: INFO--> this a Chrome
+2020-01-14 21:45:44,735  Login_TestCase.py--> setUp 20: INFO--> this a Chrome
+2020-01-14 21:45:56,348  Login_TestCase.py--> setUp 20: INFO--> this a Chrome
